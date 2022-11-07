@@ -33,20 +33,20 @@ namespace NinjaTrader.NinjaScript.Strategies
 				//Strategy Defaults
 				Name										= "RSIStrategy";
 				Calculate									= Calculate.OnBarClose;
-				EntriesPerDirection							= 1;
-				EntryHandling								= EntryHandling.AllEntries;
-				IsExitOnSessionCloseStrategy				= true;
-				ExitOnSessionCloseSeconds					= 30;
-				IsFillLimitOnTouch							= false;
-				MaximumBarsLookBack							= MaximumBarsLookBack.TwoHundredFiftySix;
-				OrderFillResolution							= OrderFillResolution.Standard;
+				EntriesPerDirection							        = 1;
+				EntryHandling								        = EntryHandling.AllEntries;
+				IsExitOnSessionCloseStrategy				                        = true;
+				ExitOnSessionCloseSeconds					                = 30;
+				IsFillLimitOnTouch							        = false;
+				MaximumBarsLookBack							        = MaximumBarsLookBack.TwoHundredFiftySix;
+				OrderFillResolution							        = OrderFillResolution.Standard;
 				Slippage									= 0;
-				StartBehavior								= StartBehavior.WaitUntilFlat;
+				StartBehavior								        = StartBehavior.WaitUntilFlat;
 				TimeInForce									= TimeInForce.Gtc;
 				TraceOrders									= false;
-				RealtimeErrorHandling						= RealtimeErrorHandling.StopCancelClose;
-				StopTargetHandling							= StopTargetHandling.PerEntryExecution;
-				BarsRequiredToTrade							= 20;
+				RealtimeErrorHandling						                = RealtimeErrorHandling.StopCancelClose;
+				StopTargetHandling							        = StopTargetHandling.PerEntryExecution;
+				BarsRequiredToTrade							        = 20;
 			}
 			else if (State == State.Configure)
 			{
