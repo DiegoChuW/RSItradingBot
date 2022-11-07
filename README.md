@@ -3,7 +3,7 @@
 - Fully Autonomous and can generate income on the side
 - Relies on the relation between RSI values and periods (13 and 3 periods)
 - Relies on 1min candles and was backtested using btc/usd over a 2 year period
-- High win/loss rate
+- High profit/loss rate
 - 58.01 profit factor!
 
 # Preview
